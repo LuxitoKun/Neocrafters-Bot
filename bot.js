@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.user.setActivity('YT!', { type: 'WATCHING' });
+client.setActivity('YT!', { type: 'WATCHING' });
 client.on('ready', () => {
     console.log('I am ready!');
 });
