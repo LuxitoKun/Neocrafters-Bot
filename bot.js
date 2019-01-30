@@ -7,6 +7,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ip') {
     	message.reply('mc.neocrafters.es');
+        client.user.setPresence({ activity: { name: mc.neocrafters.es }, status 'online' }); 
   	}
 });
 
